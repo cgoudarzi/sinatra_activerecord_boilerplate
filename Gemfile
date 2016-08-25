@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'bundler', '~> 1.12', '>= 1.12.5'
+gem "http"
 gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 gem 'json', '~> 2.0', '>= 2.0.1'
 gem 'sinatra', '~> 1.4', '>= 1.4.7',                require: 'sinatra/base'
